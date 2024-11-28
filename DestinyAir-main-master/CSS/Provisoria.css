@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin-top: 10rem;
+}
+
+.container {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #0074d9;
+}
+
+header p {
+    margin: 5px 0 20px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+}
+
+.filter label {
+    margin-left: 5px;
+    font-size: 0.9em;
+    color: #333;
+}
+
+.time-range label {
+    font-size: 0.9em;
+    margin-right: 5px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-left: 0.8rem;
+}
+
+thead {
+    background: #0074d9;
+    color: white;
+}
+
+thead th {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tbody td {
+    padding: 10px;
+}
+
+tbody tr:hover {
+    background: #f4f4f4;
+}
+
+.button1, .button3, .button5 {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+.button2, .button4, .button6 {
+    display: inline-block;
+    padding: 8px 12px;
+    background: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+.button:hover {
+    background: #218838;
+}
+
+
+.button-container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 18px;
+ width: 22px;
+ height: 24px;
+ background-color: #72b6f2;
+ margin-left: -60px;
+ padding-left: 1px;
+ padding-right: 1px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+}
+.button-container button {
+    border: none;
+}
+.p{
+    margin-top: -18px;
+}
+
