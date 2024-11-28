@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca de Voos</title>
+    <link rel="stylesheet" href="CSS/Provisoria.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>São Paulo (SAO) ➜ Salvador (BA)</h1>
+            <p>Preços sem taxas ida e volta para 1 adulto</p>
+        </header>
+        <div class="filters">
+            <div class="filter">
+                <input type="checkbox" id="direct-flights" checked>
+                <label for="direct-flights">Só Diretos</label>
+            </div>
+            <div class="time-range">
+                <label>Horários Ida:</label>
+                <input type="time" min="0" max="23" value="12">
+            </div>
+            <div class="time-range">
+                <label>Horários Volta:</label>
+                <input type="range" min="0" max="23" value="12">
+            </div>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Companhia</th>
+                    <th>Horário Ida</th>
+                    <th>Horário Volta</th>
+                    <th>Preço</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Destiny-Airlines</td>
+                    <td>08 Abr - 22:25 ➜ 07:35</td>
+                    <td>15 Abr - 21:30 ➜ 06:55</td>
+                    <td>R$ 472,31</td>
+                    <td><a href="#" class="button">Ver no site Destiny-Airlines</a></td>
+                </tr>
+                <tr>
+                    <td>Destiny-Airlines</td>
+                    <td>22 Abr - 02:00 ➜ 04:55</td>
+                    <td>15 Abr - 02:00 ➜ 04:55</td>
+                    <td>R$ 472,31</td>
+                    <td><a href="#" class="button">Ver no site Destiny-Airlines</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
